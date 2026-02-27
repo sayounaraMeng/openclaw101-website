@@ -1,0 +1,342 @@
+{
+  "course": {
+    "title": "OpenClaw 101",
+    "subtitle": "系统学习指南",
+    "description": "专为已部署 OpenClaw 并连接飞书的数学老师设计，帮助你从'部署完成但不会用'进阶到'打造专属教研 AI 助手'",
+    "duration": "7天",
+    "dailyTime": "1-2小时",
+    "totalDocs": 35
+  },
+  "days": [
+    {
+      "id": "day01",
+      "title": "Day 1：技能市场入门",
+      "subtitle": "让机器人'有用'",
+      "icon": "🚀",
+      "description": "学习如何浏览技能市场、安装第一个 Skill、处理文档，掌握 Skill 管理与安全基础",
+      "topics": [
+        {
+          "id": "day01-topic01",
+          "title": "ClawHub 技能市场浏览",
+          "duration": "15分钟",
+          "type": "concept",
+          "summary": "理解 OpenClaw 的技能系统，了解技能市场的功能，掌握技能的基本概念和分类"
+        },
+        {
+          "id": "day01-topic02",
+          "title": "安装你的第一个 Skill",
+          "duration": "20分钟",
+          "type": "practice",
+          "summary": "深入了解飞书技能的配置选项，学会配置飞书机器人在不同群组的权限，掌握飞书消息发送的基本命令"
+        },
+        {
+          "id": "day01-topic03",
+          "title": "文档处理 Skill",
+          "duration": "20分钟",
+          "type": "practice",
+          "summary": "掌握文档处理类 skill 的安装和使用，实现自动阅读 PDF、提取网页内容、总结长文档"
+        },
+        {
+          "id": "day01-topic04",
+          "title": "Skill 管理与维护",
+          "duration": "15分钟",
+          "type": "practice",
+          "summary": "掌握 skill 的日常管理：查看、更新、卸载、排查问题，保持系统稳定运行"
+        },
+        {
+          "id": "day01-topic05",
+          "title": "安全基础与风险识别",
+          "duration": "20分钟",
+          "type": "concept",
+          "summary": "了解 OpenClaw 的安全风险，掌握基本防护措施，保护你的数据和系统安全"
+        }
+      ]
+    },
+    {
+      "id": "day02",
+      "title": "Day 2：飞书场景深度整合",
+      "subtitle": "飞书群里的机器人真正'智能'起来",
+      "icon": "💬",
+      "description": "学习飞书文档操作、多维表格管理、消息模板进阶、群组自动化",
+      "topics": [
+        {
+          "id": "day02-topic01",
+          "title": "飞书文档操作入门",
+          "duration": "20分钟",
+          "type": "practice",
+          "summary": "学会用 OpenClaw 创建飞书文档，掌握文档的基本编辑操作，理解飞书文档的权限管理"
+        },
+        {
+          "id": "day02-topic02",
+          "title": "多维表格管理",
+          "duration": "25分钟",
+          "type": "practice",
+          "summary": "理解多维表格（Bitable）的概念和用途，学会用 OpenClaw 操作多维表格，掌握批量数据导入导出的方法"
+        },
+        {
+          "id": "day02-topic03",
+          "title": "消息模板进阶",
+          "duration": "20分钟",
+          "type": "practice",
+          "summary": "学会创建动态消息模板，掌握变量替换和条件判断，实现个性化消息发送"
+        },
+        {
+          "id": "day02-topic04",
+          "title": "群组自动化",
+          "duration": "20分钟",
+          "type": "practice",
+          "summary": "配置群组自动化规则，实现新成员自动欢迎，设置关键词自动回复"
+        },
+        {
+          "id": "day02-topic05",
+          "title": "教研文档管理系统",
+          "duration": "30分钟",
+          "type": "project",
+          "summary": "综合实战项目：整合飞书文档、多维表格、消息模板等功能，创建完整的教研文档管理系统"
+        }
+      ]
+    },
+    {
+      "id": "day03",
+      "title": "Day 3：数学老师专属",
+      "subtitle": "机器人成为教研助手",
+      "icon": "📐",
+      "description": "专为数学老师设计的技能：数学公式渲染、题目生成、思维导图、资料整理、学生问答辅助",
+      "topics": [
+        {
+          "id": "day03-topic01",
+          "title": "数学公式渲染与 LaTeX 支持",
+          "duration": "25分钟",
+          "type": "practice",
+          "summary": "理解 LaTeX 是什么以及为什么数学老师需要它，掌握在飞书文档中使用数学公式的方法，学会用 OpenClaw 自动生成带公式的教学材料"
+        },
+        {
+          "id": "day03-topic02",
+          "title": "题目生成与教学资源获取",
+          "duration": "25分钟",
+          "type": "practice",
+          "summary": "学会使用 OpenClaw 搜索和获取数学教学资源，掌握自动生成练习题的方法，了解如何整理和管理试题库，学会批量生成试卷的技巧"
+        },
+        {
+          "id": "day03-topic03",
+          "title": "思维导图与知识可视化",
+          "duration": "25分钟",
+          "type": "practice",
+          "summary": "理解知识可视化的重要性，学会使用 OpenClaw 生成思维导图，掌握概念图、知识框架图的创建方法，了解如何将可视化内容整合到教学材料中"
+        },
+        {
+          "id": "day03-topic04",
+          "title": "教学资料整理与归档",
+          "duration": "25分钟",
+          "type": "practice",
+          "summary": "建立科学的教学资料分类体系，学会使用 OpenClaw 自动整理和归档资料，掌握资料检索和复用的技巧，了解团队协作中的资料管理方法"
+        },
+        {
+          "id": "day03-topic05",
+          "title": "学生问答与作业辅助",
+          "duration": "25分钟",
+          "type": "practice",
+          "summary": "学会使用 OpenClaw 辅助回答学生常见问题，掌握作业批改辅助技巧，了解如何提供个性化学习建议，学会建立学生答疑知识库"
+        }
+      ]
+    },
+    {
+      "id": "day04",
+      "title": "Day 4：记忆系统",
+      "subtitle": "让机器人'记得住'",
+      "icon": "🧠",
+      "description": "学习 MEMORY.md 工作原理、个人偏好设置、教研项目追踪、记忆整理归档、跨会话记忆共享",
+      "topics": [
+        {
+          "id": "day04-topic01",
+          "title": "MEMORY.md 工作原理",
+          "duration": "15分钟",
+          "type": "concept",
+          "summary": "理解 OpenClaw 的记忆系统是如何工作的，掌握 MEMORY.md 文件的作用和基本结构"
+        },
+        {
+          "id": "day04-topic02",
+          "title": "个人偏好与习惯设置",
+          "duration": "15分钟",
+          "type": "practice",
+          "summary": "让机器人了解你的工作习惯和偏好，从而提供更个性化的服务"
+        },
+        {
+          "id": "day04-topic03",
+          "title": "教研项目追踪",
+          "duration": "20分钟",
+          "type": "practice",
+          "summary": "使用记忆系统管理教研项目，跟踪进度、里程碑和相关资料"
+        },
+        {
+          "id": "day04-topic04",
+          "title": "记忆整理与归档",
+          "duration": "15分钟",
+          "type": "practice",
+          "summary": "掌握记忆系统的维护方法，定期整理保持高效运行"
+        },
+        {
+          "id": "day04-topic05",
+          "title": "跨会话记忆共享",
+          "duration": "15分钟",
+          "type": "concept",
+          "summary": "理解跨会话记忆的工作原理，让机器人在不同对话中保持连贯"
+        }
+      ]
+    },
+    {
+      "id": "day05",
+      "title": "Day 5：自动化工作流",
+      "subtitle": "真正省时间",
+      "icon": "⚡",
+      "description": "学习心跳机制、每日教研简报、消息自动处理、多步骤任务自动化、错误处理与日志排查",
+      "topics": [
+        {
+          "id": "day05-topic01",
+          "title": "心跳机制入门",
+          "duration": "15分钟",
+          "type": "concept",
+          "summary": "理解心跳机制的工作原理，学会设置定时自动任务"
+        },
+        {
+          "id": "day05-topic02",
+          "title": "每日教研简报自动生成",
+          "duration": "20分钟",
+          "type": "practice",
+          "summary": "让机器人自动收集信息，生成有价值的每日教研简报"
+        },
+        {
+          "id": "day05-topic03",
+          "title": "消息自动处理",
+          "duration": "20分钟",
+          "type": "practice",
+          "summary": "学习如何让机器人自动处理消息、邮件，减少手动操作"
+        },
+        {
+          "id": "day05-topic04",
+          "title": "多步骤任务自动化",
+          "duration": "20分钟",
+          "type": "practice",
+          "summary": "学习如何将多个操作串联，实现复杂流程一键完成"
+        },
+        {
+          "id": "day05-topic05",
+          "title": "错误处理与日志排查",
+          "duration": "15分钟",
+          "type": "practice",
+          "summary": "学会查看日志、排查问题，确保自动化稳定运行"
+        }
+      ]
+    },
+    {
+      "id": "day06",
+      "title": "Day 6：高级玩法探索",
+      "subtitle": "掌握进阶玩法，成本可控",
+      "icon": "🚀",
+      "description": "探索多 Agent 协作、本地 LLM 接入、Canvas 画布、Skill 定制、与 Notion/飞书文档联动",
+      "topics": [
+        {
+          "id": "day06-topic01",
+          "title": "多 Agent 协作配置",
+          "duration": "25分钟",
+          "type": "practice",
+          "summary": "理解什么是多Agent协作，配置多个AI助手并分配不同任务，让多个助手协同完成复杂教研任务"
+        },
+        {
+          "id": "day06-topic02",
+          "title": "本地 LLM 接入（Ollama/LM Studio）",
+          "duration": "30分钟",
+          "type": "practice",
+          "summary": "理解什么是本地LLM及其优势，使用Ollama在本地运行AI模型，将本地模型接入OpenClaw，了解LM Studio作为备选方案"
+        },
+        {
+          "id": "day06-topic03",
+          "title": "Canvas 画布可视化交互",
+          "duration": "25分钟",
+          "type": "practice",
+          "summary": "理解Canvas画布的功能和用途，使用Canvas创建简单的数学可视化，将Canvas与AI结合制作动态教学工具，保存和分享Canvas作品"
+        },
+        {
+          "id": "day06-topic04",
+          "title": "简单 Skill 定制（无代码）",
+          "duration": "30分钟",
+          "type": "practice",
+          "summary": "理解什么是Skill（技能），使用YAML配置创建简单Skill，为教研工作定制专属功能，管理和调用自定义Skill"
+        },
+        {
+          "id": "day06-topic05",
+          "title": "与 Notion/飞书文档联动",
+          "duration": "25分钟",
+          "type": "practice",
+          "summary": "理解文档联动的工作流程，将AI生成的教案、题目保存到飞书文档，从飞书多维表格读取学生成绩数据，搭建自动化的教研文档工作流"
+        }
+      ]
+    },
+    {
+      "id": "day07",
+      "title": "Day 7：打造专属教研 AI 助手",
+      "subtitle": "拥有完全个性化的教研 AI 助手",
+      "icon": "🎯",
+      "description": "设计助手人格、整合7天所学、创建个人技能清单、安全与隐私最佳实践、下一步探索与分享",
+      "topics": [
+        {
+          "id": "day07-topic01",
+          "title": "设计助手人格（AGENTS.md 配置）",
+          "duration": "25分钟",
+          "type": "practice",
+          "summary": "理解AI人格（Persona）的概念，设计符合教学需求的助手人格，通过AGENTS.md配置助手性格和行为，创建多个不同风格的教学助手"
+        },
+        {
+          "id": "day07-topic02",
+          "title": "整合 7 天所学——完整工作流",
+          "duration": "30分钟",
+          "type": "project",
+          "summary": "理解工作流自动化的概念，设计适合您的完整教研工作流，整合多Agent、Skill、文档联动等功能，实现从备课到课后分析的全流程自动化"
+        },
+        {
+          "id": "day07-topic03",
+          "title": "创建个人技能清单",
+          "duration": "25分钟",
+          "type": "practice",
+          "summary": "梳理7天所学的全部技能，创建结构化的个人技能清单，建立技能使用速查手册，规划持续学习和提升路径"
+        },
+        {
+          "id": "day07-topic04",
+          "title": "安全与隐私最佳实践",
+          "duration": "25分钟",
+          "type": "concept",
+          "summary": "理解AI使用中的安全和隐私风险，掌握数据保护的最佳实践，安全地处理敏感教学数据，建立安全的使用习惯"
+        },
+        {
+          "id": "day07-topic05",
+          "title": "下一步探索与团队分享",
+          "duration": "20分钟",
+          "type": "concept",
+          "summary": "规划未来的AI教研探索方向，分享经验给团队，成为团队OpenClaw专家"
+        }
+      ]
+    }
+  ],
+  "features": [
+    {
+      "icon": "🎓",
+      "title": "专为数学老师设计",
+      "description": "从数学公式渲染到题目生成，从作业辅助到教研管理，贴合实际教学场景"
+    },
+    {
+      "icon": "📚",
+      "title": "7天系统学习",
+      "description": "由浅入深的学习路径，每天1-2小时，从入门到精通"
+    },
+    {
+      "icon": "🛠️",
+      "title": "实战导向",
+      "description": "学完就能用，每个主题都包含实际操作和课后作业"
+    },
+    {
+      "icon": "🤖",
+      "title": "打造专属助手",
+      "description": "学会定制AI人格、创建个人Skill、搭建自动化工作流"
+    }
+  ]
+}

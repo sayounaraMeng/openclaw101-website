@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OpenClaw 101 - 系统学习指南</title>
+  <meta name="description" content="专为数学老师设计的 OpenClaw 系统学习指南，7天从入门到精通">
+  
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🦾</text></svg>">
+  
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+  
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="css/style.css">
+  
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'grok-dark': '#0a0a0f',
+            'grok-card': '#12121a',
+            'grok-border': '#2a2a3a',
+            'grok-accent': '#6366f1',
+            'grok-accent-light': '#8b5cf6',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body>
+  <div class="app-container">
+    <!-- Left Sidebar -->
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-header">
+        <div class="logo">
+          <div class="logo-icon">🦾</div>
+          <div class="logo-text">OpenClaw 101</div>
+        </div>
+      </div>
+      
+      <nav class="sidebar-nav" id="sidebar-nav">
+        <!-- Navigation items will be rendered here -->
+        <div class="loading">
+          <div class="spinner"></div>
+        </div>
+      </nav>
+      
+      <div class="sidebar-footer">
+        <div class="progress-bar">
+          <div class="progress-fill" id="progress-bar" style="width: 0%"></div>
+        </div>
+        <div class="progress-text" id="progress-text">0% Complete</div>
+      </div>
+    </aside>
+    
+    <!-- Main Content -->
+    <main class="main-content" id="main-content">
+      <!-- Header -->
+      <header class="header">
+        <div class="header-left">
+          <button class="menu-toggle" id="menu-toggle">☰</button>
+          <div class="search-box">
+            <span class="search-icon">🔍</span>
+            <input type="text" id="search-input" placeholder="Search topics... (Press / to focus)">
+            <div class="search-results" id="search-results" style="display: none;"></div>
+          </div>
+        </div>
+        <div class="header-right">
+          <a href="https://github.com/openclaw" target="_blank" class="btn btn-secondary" title="GitHub">
+            <span>📦</span>
+            <span>GitHub</span>
+          </a>
+        </div>
+      </header>
+      
+      <!-- Content Area -->
+      <div id="content-container">
+        <!-- Content will be rendered here -->
+        <div class="loading" style="padding: 4rem;">
+          <div class="spinner"></div>
+        </div>
+      </div>
+    </main>
+    
+    <!-- Right Sidebar - TOC -->
+    <aside class="toc-sidebar" id="toc-sidebar">
+      <!-- Table of contents will be rendered here -->
+    </aside>
+  </div>
+  
+  <!-- Application Script -->
+  <script src="js/app.js"></script>
+</body>
+</html>
